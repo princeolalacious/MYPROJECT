@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form fcc</title>
+    <link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+    <meta name="author" content="Prince Uduma">
+    <meta name="description" content="html cat photo project">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <h1>Registration Form</h1>
+
+    <p>Please fill out this form with the required information</p>
+    <form action="https://httpbin.org/post" method="post">
+
+        <p>
+            <label for="name">Enetr Your First Name;</label> <br>
+
+            <input class="dark-input" type="text" autocomplete="on" id="name" required>
+        </p>
+        <p>
+            <label for="lastname">Enetr Your Last Name;</label> <br>
+
+            <input class="dark-input" type="text" autocomplete="on" id="lastname" required>
+        </p>
+        <p>
+            <label for="email">Enter Your Email;</label> <br>
+
+            <input class="dark-input" type="email" autocomplete="on" id="email" required>
+        </p>
+        <p>
+            <label for="password">Creat a New Password;</label> <br>
+
+            <input class="dark-input" type="password" autocomplete="on" id="password" required>
+        </p>
+        <br>
+        <hr>
+
+        <p>Account type (required)</p>
+        <input type="radio" id="personal">
+        <label for="personal">Personal</label> <br>
+        <input type="radio" id="business">
+        <label for="business">Business</label><br>
+        <hr>
+
+        <p>Upoload a profile picture;</p>
+        <input type="file" id="choosefile">
+
+        <p>
+            <label for="age"> Input your age (years);</label> <br>
+            <input class="dark-input" type="number" id="age" required autocomplete="on">
+        </p>
+        <p>
+            <label for="how">How did you hear about us?</label> <br>
+            <select class="white-input" name="how" id="how">
+                <option value="selectone">(Select one)</option>
+                <option value="freecode">freecodecamp news</option>
+                <option value="selectone">freecodecamp YouTube Channel</option>
+                <option value="selectone">freeecodecamp Forum</option>
+                <option value="selectone">Others</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="message">Provide a bio;</label> <br>
+            <textarea class="dark-input" name="bio" id="message" placeholder="I like coding on the beach..."></textarea>
+        </p>
+        <div>
+            <p>
+                <input type="checkbox" id="accept">
+                <label for="accept" class="iaccept">I accept the <a href="">terms and conditions</a> </label>
+            </p>
+
+
+
+            <button class="button-center" type="submit">Submit</button>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prince Uduma">
+    <meta name="discriptin" content="Pian buiding with html and css">
+    <title>piano</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: grid;
+        place-content: center;
+        height: 100vh;
+
+    }
+
+    .bigcont {
+        background-color: green;
+        padding: 3em;
+        border-radius: 6px;
+    }
+
+    .cont {
+        background-color: black;
+        border-radius: 6px;
+
+    }
+
+
+    .btn {
+        width: 70px;
+        height: 300px;
+        background-color: white;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+
+
+    }
+
+    #btn1::after {
+        content: "";
+        width: 45px;
+        height: 190px;
+        background-color: black;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        top: 170px;
+        left: 438px;
+    }
+
+    #btn2::after {
+        content: "";
+        width: 45px;
+        height: 190px;
+        background-color: black;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        top: 170px;
+        left: 515px;
+    }
+
+    #btn4::after {
+        content: "";
+        width: 45px;
+        height: 190px;
+        background-color: black;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        top: 170px;
+        left: 660px;
+    }
+
+    #btn5::after {
+        content: "";
+        width: 45px;
+        height: 190px;
+        background-color: black;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        top: 170px;
+        left: 735px;
+    }
+
+    #btn6::after {
+        content: "";
+        width: 45px;
+        height: 190px;
+        background-color: black;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        position: absolute;
+        top: 170px;
+        left: 810px;
+
+    }
+</style>
+
+<body>
+
+    <div class="bigcont">
+        <div class="cont">
+            <button class="btn" id="btn1"></button>
+            <button class="btn" id="btn2"></button>
+            <button class="btn" id="btn3"></button>
+            <button class="btn" id="btn4"></button>
+            <button class="btn" id="btn5"></button>
+            <button class="btn" id="btn6"></button>
+            <button class="btn" id="btn7"></button>
+            <button class="btn" id="btn7"></button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

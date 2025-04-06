@@ -1,0 +1,67 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(1rem, 2.2vh, 1.5rem);
+  scroll-behavior: smooth;
+  background-color: antiquewhite;
+}
+
+textarea,
+button,
+input {
+  font: inherit;
+  color: #fff;
+}
+
+body {
+  background-color: #1b1c31;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100vh;
+  color: white;
+  padding: 1rem;
+}
+
+.dark-input,
+.white-input {
+  display: block;
+  width: 100%;
+}
+
+.dark-input {
+  background-color: #020320;
+}
+
+.button-center {
+  background-color: #333447;
+  color: aliceblue;
+  box-shadow: 3px 2px 4px rgb(47, 76, 102);
+  display: block;
+  margin: 0 auto;
+  width: 20em;
+  height: 2em;
+  width: 100%;
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: rgb(238, 209, 154);
+}
+
+@media (max-width: 344px) {
+  body {
+    width: 100%;
+    background-color: darkgoldenrod;
+  }
+
+  .dark-input {
+    background-color: bisque;
+  }
+
+  .button-center {
+    width: 100%;
+    background-color: #fff;
+    color: black;
+  }
+}

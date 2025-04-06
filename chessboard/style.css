@@ -1,0 +1,26 @@
+body {
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-white {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.square-black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 700px;
+
+  margin: 0 auto;
+}

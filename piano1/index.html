@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prince Uduma">
+    <meta name="discriptin" content="Pian buiding with html and css">
+    <title>piano</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+
+    .btn {
+        padding: 20px;
+        height: 300px;
+        margin: 0px .5px;
+        background-color: white;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+    }
+
+    #btn1::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 170px;
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top: 171px;
+        left: 525px
+    }
+
+    #btn3::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 170px;
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top: 171px;
+        left: 640px
+    }
+
+    #btn5::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 170px;
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top: 171px;
+        left: 755px
+    }
+
+    #btn6::after {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 170px;
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        top: 171px;
+        left: 815px
+    }
+</style>
+
+<body>
+    <div id="bigcont">
+        <div id="cont">
+            <button class="btn" id="btn1">A</button>
+            <button class="btn" id="btn2">S</button>
+            <button class="btn" id="btn3">D</button>
+            <button class="btn" id="btn4">F</button>
+            <button class="btn" id="btn5">G</button>
+            <button class="btn" id="btn6">H</button>
+            <button class="btn" id="btn7">J</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
